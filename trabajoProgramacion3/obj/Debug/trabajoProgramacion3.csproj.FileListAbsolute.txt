@@ -1,0 +1,10 @@
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\bin\Debug\trabajoProgramacion3.exe.config
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\bin\Debug\trabajoProgramacion3.exe
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\bin\Debug\trabajoProgramacion3.pdb
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.csproj.AssemblyReference.cache
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.Form1.resources
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.Properties.Resources.resources
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.csproj.GenerateResource.cache
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.csproj.CoreCompileInputs.cache
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.exe
+C:\Users\palos\source\repos\trabajoProgramacion3\trabajoProgramacion3\obj\Debug\trabajoProgramacion3.pdb
