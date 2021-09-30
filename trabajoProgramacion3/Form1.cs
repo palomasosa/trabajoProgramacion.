@@ -16,7 +16,8 @@ namespace trabajoProgramacion3
         {
             InitializeComponent();
         }
-
+        int contadorMaK = 0;
+        int contadorKaM = 0;
         private void btnMillasKm_Click(object sender, EventArgs e)
         {
             if (numberCalc.Value == 0)
@@ -33,7 +34,18 @@ namespace trabajoProgramacion3
                 lblResultado.Text = "El resultado es: " + resultado + "km";
                 lblResultado.Visible = true;
 
+                
+                bool banderaMaK = false;
+                while (banderaMaK == false)
+                {
+                    lblConsultasMaK.Visible = true;
+                    lblContadorMaK.Visible = true;
+                    contadorMaK = contadorMaK + 1;
+                    lblContadorMaK.Text = System.Convert.ToString(contadorMaK);
+                    banderaMaK = true;
 
+                }
+                
             }
         }
 
@@ -54,8 +66,19 @@ namespace trabajoProgramacion3
                 lblResultado.Text = "El resultado es: " + resultado + "mi";
                 lblResultado.Visible = true;
 
+                bool banderaKaM = false;
+                while (banderaKaM == false)
+                {
+                    lblConsultasKaM.Visible = true;
+                    lblContadorKaM.Visible = true;
+                    contadorKaM = contadorKaM + 1;
+                    lblContadorKaM.Text = System.Convert.ToString(contadorKaM);
+                    banderaKaM = true;
 
+                }
             }
         }
+
+
     }
 }

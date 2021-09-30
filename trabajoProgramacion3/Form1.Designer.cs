@@ -35,6 +35,10 @@ namespace trabajoProgramacion3
             this.btnMillasKm = new System.Windows.Forms.Button();
             this.btnKmMillas = new System.Windows.Forms.Button();
             this.numberCalc = new System.Windows.Forms.NumericUpDown();
+            this.lblConsultasMaK = new System.Windows.Forms.Label();
+            this.lblContadorMaK = new System.Windows.Forms.Label();
+            this.lblContadorKaM = new System.Windows.Forms.Label();
+            this.lblConsultasKaM = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numberCalc)).BeginInit();
             this.SuspendLayout();
             // 
@@ -110,11 +114,61 @@ namespace trabajoProgramacion3
             this.numberCalc.TabIndex = 10;
             this.numberCalc.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // lblConsultasMaK
+            // 
+            this.lblConsultasMaK.AutoSize = true;
+            this.lblConsultasMaK.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConsultasMaK.Location = new System.Drawing.Point(176, 322);
+            this.lblConsultasMaK.Name = "lblConsultasMaK";
+            this.lblConsultasMaK.Size = new System.Drawing.Size(450, 31);
+            this.lblConsultasMaK.TabIndex = 11;
+            this.lblConsultasMaK.Text = "Cantidad de consultas de millas a kilometros:";
+            this.lblConsultasMaK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblConsultasMaK.Visible = false;
+            // 
+            // lblContadorMaK
+            // 
+            this.lblContadorMaK.AutoSize = true;
+            this.lblContadorMaK.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContadorMaK.Location = new System.Drawing.Point(632, 322);
+            this.lblContadorMaK.Name = "lblContadorMaK";
+            this.lblContadorMaK.Size = new System.Drawing.Size(0, 31);
+            this.lblContadorMaK.TabIndex = 12;
+            this.lblContadorMaK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblContadorMaK.Visible = false;
+            // 
+            // lblContadorKaM
+            // 
+            this.lblContadorKaM.AutoSize = true;
+            this.lblContadorKaM.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContadorKaM.Location = new System.Drawing.Point(632, 354);
+            this.lblContadorKaM.Name = "lblContadorKaM";
+            this.lblContadorKaM.Size = new System.Drawing.Size(0, 31);
+            this.lblContadorKaM.TabIndex = 13;
+            this.lblContadorKaM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblContadorKaM.Visible = false;
+            // 
+            // lblConsultasKaM
+            // 
+            this.lblConsultasKaM.AutoSize = true;
+            this.lblConsultasKaM.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConsultasKaM.Location = new System.Drawing.Point(176, 353);
+            this.lblConsultasKaM.Name = "lblConsultasKaM";
+            this.lblConsultasKaM.Size = new System.Drawing.Size(450, 31);
+            this.lblConsultasKaM.TabIndex = 14;
+            this.lblConsultasKaM.Text = "Cantidad de consultas de kilometros a millas:";
+            this.lblConsultasKaM.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblConsultasKaM.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblConsultasKaM);
+            this.Controls.Add(this.lblContadorKaM);
+            this.Controls.Add(this.lblContadorMaK);
+            this.Controls.Add(this.lblConsultasMaK);
             this.Controls.Add(this.numberCalc);
             this.Controls.Add(this.btnKmMillas);
             this.Controls.Add(this.btnMillasKm);
@@ -137,6 +191,10 @@ namespace trabajoProgramacion3
         private System.Windows.Forms.Button btnMillasKm;
         private System.Windows.Forms.Button btnKmMillas;
         private System.Windows.Forms.NumericUpDown numberCalc;
+        private System.Windows.Forms.Label lblConsultasMaK;
+        private System.Windows.Forms.Label lblContadorMaK;
+        private System.Windows.Forms.Label lblContadorKaM;
+        private System.Windows.Forms.Label lblConsultasKaM;
     }
 }
 
